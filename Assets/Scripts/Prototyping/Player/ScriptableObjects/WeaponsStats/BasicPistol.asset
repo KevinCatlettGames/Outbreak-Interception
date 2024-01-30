@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df72fbc2046598448a5b77240a374545, type: 3}
+  m_Name: BasicPistol
+  m_EditorClassIdentifier: 
+  weaponID: 0
+  hittableObjects:
+    serializedVersion: 2
+    m_Bits: 8385
+  downTime: 0.5
+  reloadTime: 2
+  damage: 1.5
+  knockback: 1
+  spread: 0
+  magSize: 10
+  ammoPerDrop: 0
+  cameraShakeTime: 0.15
+  cameraShakeIntensity: 2
+  shootSound: {fileID: 8300000, guid: 5b22d49ea2db95d499986cb860461444, type: 3}
+  readyToShootSound: {fileID: 8300000, guid: a804c83ffdd31ce47aec296f16186575, type: 3}
+  reloadSound: {fileID: 8300000, guid: e5198250a6a57408bb36e14bc4a322c4, type: 3}

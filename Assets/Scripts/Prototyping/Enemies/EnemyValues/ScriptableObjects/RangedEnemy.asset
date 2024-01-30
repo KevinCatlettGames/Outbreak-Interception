@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924a02bc50db10140b156f2d64c5d5d0, type: 3}
+  m_Name: RangedEnemy
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  damageLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  idleAnimationName: Idle
+  walkAnimationName: Walk
+  runAnimationName: Walk
+  attackAnimationName: Gunplay
+  deathAnimationName: Die
+  hitAnimationName: Reaction
+  knockBackAnimationName: Flying Back Death
+  chargeAnimationName: Charge
+  chargingAnimationName: Charging
+  idleClip: {fileID: 8300000, guid: 23cdfdd4bbe87df42901a44c9d6300ea, type: 3}
+  aggroClips:
+  - {fileID: 8300000, guid: 90a6313e3c4f38344923ef4f2de3107d, type: 3}
+  - {fileID: 8300000, guid: 053dcc97d6cfd2b4791ff40d64c67fa1, type: 3}
+  - {fileID: 8300000, guid: 14b2bff969035e54494f9dd466ab0cbe, type: 3}
+  - {fileID: 8300000, guid: d366b93ebfbc0fa4ab467303ef340133, type: 3}
+  attackClip: {fileID: 8300000, guid: 0bbb2aea25bc7ed46bdcb0fee4e09176, type: 3}
+  hitClip: {fileID: 8300000, guid: 9f02c43f59c66694cab758a0825680b8, type: 3}
+  deathClip: {fileID: 8300000, guid: 267b6599e70392944bdee24cb2d7e664, type: 3}
+  minIdleTime: 3
+  maxIdleTime: 5
+  roamSpeed: 0.5
+  minRoamTime: 2
+  maxRoamTime: 5
+  minRoamDistance: 5
+  maxRoamDistance: 20
+  moveSurfacesLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  chaseSpeed: 2
+  chaseDistance: 20
+  canFlee: 0
+  fleeDistance: 10
+  fleeToAttack: 1
+  fleeToAttackDistance: 9
+  sightInfluencers:
+    serializedVersion: 2
+    m_Bits: 5192
+  initialAttackWaitTime: 1
+  attackWaitTime: 3
+  attackDistance: 15
+  attackDamage: 1
+  knockBack: 10
+  isRanged: 1
+  doesChargeAttack: 0
+  chargeSpeed: 10
+  projectilePrefab: {fileID: 8385038071122864350, guid: 4633bb84c225b7141a405f40d8a5cd25,
+    type: 3}
+  projectileDistance: 0.5
+  projectileAmount: 3
+  projectileTargetOffset: {x: 1.5, y: 1.5}
+  deathWaitTime: 2
+  hitWaitTime: 1.3
+  knockBackMultiplier: 1
+  canReceiveKnockback: 1

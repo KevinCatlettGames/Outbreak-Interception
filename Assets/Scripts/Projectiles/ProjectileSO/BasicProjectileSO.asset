@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cade1f91a123fcc4cbed03cb8d864447, type: 3}
+  m_Name: BasicProjectileSO
+  m_EditorClassIdentifier: 
+  speed: 14
+  damage: 1
+  yMovementAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5003476
+      value: 1.0056857
+      inSlope: 0.067639194
+      outSlope: 0.067639194
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16013797
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9929145
+      value: 0.015200943
+      inSlope: -2.3542793
+      outSlope: -2.3542793
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.28347144
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yMovementAnimationCurveMultiplier: 1
+  projectileHitEffectPrefab: {fileID: 3582632345220329179, guid: 3ca711074b82fc84fa3ece443935cd80,
+    type: 3}
+  projectileHitSound: {fileID: 8300000, guid: b8646fc008b54c642bd703478d090d9e, type: 3}

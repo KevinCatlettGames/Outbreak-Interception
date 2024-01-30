@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924a02bc50db10140b156f2d64c5d5d0, type: 3}
+  m_Name: TankEnemy
+  m_EditorClassIdentifier: 
+  maxHealth: 20
+  damageLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  idleAnimationName: Idle
+  walkAnimationName: Walk
+  runAnimationName: 
+  attackAnimationName: CustomJumpAttack
+  deathAnimationName: Die
+  hitAnimationName: Reaction
+  knockBackAnimationName: Reaction
+  chargeAnimationName: CustomSprint
+  chargingAnimationName: Charging
+  idleClip: {fileID: 8300000, guid: 23cdfdd4bbe87df42901a44c9d6300ea, type: 3}
+  aggroClips:
+  - {fileID: 8300000, guid: 90a6313e3c4f38344923ef4f2de3107d, type: 3}
+  - {fileID: 8300000, guid: 053dcc97d6cfd2b4791ff40d64c67fa1, type: 3}
+  - {fileID: 8300000, guid: 14b2bff969035e54494f9dd466ab0cbe, type: 3}
+  - {fileID: 8300000, guid: d366b93ebfbc0fa4ab467303ef340133, type: 3}
+  attackClip: {fileID: 8300000, guid: b02e39fef6e839b46a1a73e8527fe02b, type: 3}
+  hitClip: {fileID: 8300000, guid: 9f02c43f59c66694cab758a0825680b8, type: 3}
+  deathClip: {fileID: 8300000, guid: 267b6599e70392944bdee24cb2d7e664, type: 3}
+  minIdleTime: 3
+  maxIdleTime: 5
+  roamSpeed: 0.5
+  minRoamTime: 2
+  maxRoamTime: 5
+  minRoamDistance: 5
+  maxRoamDistance: 20
+  moveSurfacesLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  chaseSpeed: 5
+  chaseDistance: 10
+  canFlee: 0
+  fleeDistance: 0
+  fleeToAttack: 0
+  fleeToAttackDistance: 0
+  sightInfluencers:
+    serializedVersion: 2
+    m_Bits: 1096
+  initialAttackWaitTime: 0.2
+  attackWaitTime: 3
+  attackDistance: 1
+  attackDamage: 3
+  knockBack: 20
+  isRanged: 0
+  doesChargeAttack: 1
+  chargeSpeed: 13
+  projectilePrefab: {fileID: 0}
+  projectileDistance: 1
+  projectileAmount: 1
+  projectileTargetOffset: {x: 0, y: 0}
+  deathWaitTime: 2
+  hitWaitTime: 0.5
+  knockBackMultiplier: 0.2
+  canReceiveKnockback: 0
